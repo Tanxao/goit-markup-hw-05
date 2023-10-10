@@ -494,7 +494,10 @@ address {
     fill: #f4f4fd;
 }
 
-.post-bloc {}
+.post-bloc {
+    display: block;
+    margin: 80px;
+}
 
 .post-text {
     margin-bottom: 16px;
@@ -507,10 +510,12 @@ address {
 
 .post-imeil {
     display: flex;
+    gap 24px
 }
 
 .post-labe {
-    gap 24px
+    display: block;
+    margin-right: 24px;
 }
 
 .post-inp {
