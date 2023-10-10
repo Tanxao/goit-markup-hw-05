@@ -504,6 +504,16 @@ address {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.body-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 16px;
+}
+
 .body-vicno {
     position: absolute;
     top: 50%;
@@ -515,6 +525,7 @@ address {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
 }
 
 .body-knopa {
@@ -526,6 +537,7 @@ address {
     border-radius: 50%;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
@@ -537,8 +549,22 @@ address {
 .body-knopa:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .body-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.body-link {
+    margin-bottom: 8px;
+}
+
+.body-label{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    display: block;
+    margin-bottom: 4px;
 }
