@@ -460,8 +460,8 @@
         <div class="post-bloc">
           <p class="post-text">Subscribe</p>
           <form class="post-imeil">
-            <label class="post-labe">
-              <input type="email" name="text" placeholder="E-mail" class="post-inp">
+            <label for="footer-email" class="post-labe">
+              <input ib="footer-email" type="email" name="emeil" placeholder="E-mail" class="post-inp">
             </label>
             <button type="submit" class="post-cnopka">
               Subscribe
@@ -475,67 +475,65 @@
     </footer>
     <div class="body">
       <div class="body-vicno">
-        <p class="body-text">Leave your contacts and we will call you back</p>
-        <button type="button" class="body-cnopka">
+        <button type="button" class="body-btn">
           <svg width="8" height="8" class="body-icon">
             <use href="./images/symbol-defs-svg.svg#icon-close-black-18dp-2-1-1"></use>
           </svg>
         </button>
-        <form class="body-fors">
-          <div class="body-spsoc">
-            <label for="user-name" class="body-spsoc-rad">
+        <p class="body-text">Leave your contacts and we will call you back</p>
+        <form class="body-form">
+          <div class="body-form-container">
+            <label for="user-name" class="body-form-list">
               Name
-              <div class="body-pro-icon">
-                <input id="user-name" name="user-name" type="text" class="body-input" />
-                <svg width="18" height="24" class="body-svg">
-                  <use href="./images/symbol-defs-svg.svg#icon-person"></use>
-                </svg>
-              </div>
             </label>
-          </div>
-          <div class="body-spsoc">
-            <label for="user-name" class="body-spsoc-rad">
-              Phone
-              <div class="body-pro-icon">
-                <input id="user-phone" name="user-name" type="text" class="body-input" />
-                <svg width="18" height="24" class="body-svg">
-                  <use href="./images/symbol-defs-svg.svg#icon-phone-black-18dp-1"></use>
-                </svg>
-              </div>
-            </label>
-          </div>
-          <div class="body-spsoc">
-            <label for="user-name" class="body-spsoc-rad">
-              Email
-              <div class="body-pro-icon">
-                <input id="user-email" name="user-name" type="text" class="body-input" />
-                <svg width="18" height="24" class="body-svg">
-                  <use href="./images/symbol-defs-svg.svg#icon-email-black-18dp-1"></use>
-                </svg>
-              </div>
-            </label>
-            <div>
-              <label for="user-comment" class="body-spsoc-rad">
-                Comment
-                <div>
-                  <textarea  id="user-comment" name="user-comment" placeholder="Text input" class="body-tex"></textarea>
-                </div>
-              </label>
+            <div class="body-form-list-container">
+              <input id="user-name" name="user-name" type="text" class="body-form-list-container-item" />
+              <svg width="18" height="24" class="body-form-list-container-icon">
+                <use href="./images/symbol-defs-svg.svg#icon-person"></use>
+              </svg>
             </div>
           </div>
-          <div class="body-boxs">
-            <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="visually-hidden" />
-            <label for="user-privacy" class="body-boxs-labe">
-              <span class="body-span">
-                <svg width="10" height="8" class="body-span-svi">
+          <div class="body-form-container">
+            <label for="user-name" class="body-form-list">
+              Phone
+            </label>
+            <div class="body-form-list-container">
+              <input id="user-phone" name="user-name" type="text" class="body-form-list-container-item" />
+              <svg width="18" height="24" class="body-form-list-container-icon">
+                <use href="./images/symbol-defs-svg.svg#icon-phone-black-18dp-1"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="body-form-container">
+            <label for="user-name" class="body-form-list">
+              Email
+            </label>
+            <div class="body-form-list-container">
+              <input id="user-email" name="user-name" type="text" class="body-form-list-container-item" />
+              <svg width="18" height="24" class="body-form-list-container-icon">
+                <use href="./images/symbol-defs-svg.svg#icon-email-black-18dp-1"></use>
+              </svg>
+            </div>
+            <div class="container-commrnt">
+              <label for="user-comment" class="body-form-list">
+                Comment
+              </label>
+                <textarea  id="user-comment" name="user-comment" placeholder="Text input" class="container-commrnt-block"></textarea>
+            </div>
+          </div>
+          <div class="body-container-boxs">
+            <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="boxs-item visually-hidden" />
+            <label for="user-privacy" class="boxs-block">
+              <span class="boxs-block-item">
+                <svg  class="boxs-block-item-icon" width="10" height="8">
                   <use href="./images/symbol-defs-svg.svg#icon-checkbox"/>
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href="/" class="body-slka">Privacy Policy</a>
+              <a href="/" class="boxs-block-link">Privacy Policy</a>
             </label>
           </div>
-          <button type="button" class="div-button">Send</button>
+          <button type="button" class="body-last-bnt">Send</button>
         </form>
       </div>
     </div>
