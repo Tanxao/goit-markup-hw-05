@@ -666,8 +666,7 @@ address {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.body-form-list:hover .body-form-list-container,
-.body-form-list:focus .body-form-list-container {
+.body-form-list-container-item:focus {
     border-color: #4D5AE5;
 }
 
@@ -685,7 +684,6 @@ address {
 
 .container-commrnt {
     margin-bottom: 16px;
-    padding-top: 8px;
 }
 
 .container-commrnt-block {
