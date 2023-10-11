@@ -507,11 +507,11 @@ address {
     fill: #f4f4fd;
 }
 
-.post-bloc {
+.post-block {
     margin-left: 80px;
 }
 
-.post-text {
+.post-block-text {
     margin-bottom: 16px;
     color: var(--WHITE, #FFF);
     font-weight: 500;
@@ -520,14 +520,14 @@ address {
     letter-spacing: 0.02em;
 }
 
-.post-imeil {
+.post-block-imeil {
     display: flex;
     gap: 24px;
 }
 
-.post-labe {}
+.post-block-imeil-item {}
 
-.post-inp {
+.post-block-imeil-item-text {
     width: 264px;
     height: 40px;
     border: 1px solid #ffffff;
@@ -541,7 +541,7 @@ address {
     color: #ffffff;
 }
 
-.post-cnopka {
+.post-btn {
     min-width: 165px;
     height: 40px;
     display: flex;
